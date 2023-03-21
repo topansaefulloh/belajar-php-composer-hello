@@ -1,0 +1,19 @@
+{
+    "name": "topan/belajar-php-composer-library",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Topan\\BelajarPhpComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Topan",
+            "email": "topansaefulloh123@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
